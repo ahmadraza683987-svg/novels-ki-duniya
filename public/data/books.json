@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title_en": "Peer-e-Kamil",
+    "title_ur": "پیر کامل",
+    "author": "Umera Ahmed",
+    "image": "https://via.placeholder.com/150",
+    "file": "./assets/peer-e-kamil.pdf"
+  },
+  {
+    "id": 2,
+    "title_en": "Jannat Kay Pattay",
+    "title_ur": "جنت کے پتے",
+    "author": "Nemrah Ahmed",
+    "image": "https://via.placeholder.com/150",
+    "file": "#"
+  },
+  {
+    "id": 3,
+    "title_en": "Aab-e-Hayat",
+    "title_ur": "آبِ حیات",
+    "author": "Umera Ahmed",
+    "image": "https://via.placeholder.com/150",
+    "file": "#"
+  },
+  {
+    "title_ur": "جاسوسی دنیا",
+    "title_en": "Jasoosi Duniya",
+    "author": "Ibn-e-Safi",
+    "image": "https://i.imgur.com/2DhmtJ4.jpg",
+    "file": "https://archive.org/download/jasoosi-duniya-1/jasoosi-duniya-1.pdf",
+    "id": 1776234870673
+  },
+  {
+    "id": 1776236292737,
+    "title_ur": "جاسوسی دنیا نمبر ١",
+    "title_en": "Jasoosi duniya number 1",
+    "author": "Ibne safi",
+    "image": "./assets/images/1776236292653-file_00000000a2887208a331a5dc796c3e6f.png",
+    "file": "./assets/pdfs/1776236292698-Jasoosi Duniya No. 1 - Dilaer Mujrim (The Brave Criminal).pdf"
+  }
+]
