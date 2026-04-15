@@ -28,7 +28,7 @@ export default function Admin() {
       formData.append("pdf", pdfFile);
 
       try {
-        const res = await fetch("http://localhost:3001/add-book", {
+        const res = await fetch("https://novels-ki-duniya.onrender.com", {
           method: "POST",
           body: formData
         });
