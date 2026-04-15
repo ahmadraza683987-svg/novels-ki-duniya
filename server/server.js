@@ -7,7 +7,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const FILE_PATH = "../public/data/books.json";
+const path = require("path");
+
+const FILE_PATH = path.join(__dirname, "../public/data/books.json");
 
 // ===== FILE UPLOAD SETUP =====
 const storage = multer.diskStorage({
@@ -43,8 +45,12 @@ app.post("/login", (req, res) => {
 
 // ===== GET BOOKS =====
 app.get("/books", (req, res) => {
-  const data = fs.readFileSync(FILE_PATH);
-  res.json(JSON.parse(data));
+  try {
+    const data = fs.readFileSync(FILE_PATH);
+    res.json(JSON.parse(data));
+  } catch (err) {
+    res.json([]);
+  }
 });
 
 // ===== ADD BOOK WITH FILE UPLOAD =====
