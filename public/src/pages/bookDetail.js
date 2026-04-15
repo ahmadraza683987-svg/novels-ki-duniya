@@ -1,5 +1,5 @@
 export default async function BookDetail(id) {
-  const res = await fetch("./data/books.json");
+  const res = await fetch("https://novels-ki-duniya.onrender.com/books");
   const books = await res.json();
 
   const book = books.find(b => b.id == id);
